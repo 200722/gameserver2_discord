@@ -13,4 +13,4 @@ const welcomeSchema = new Schema({
 })
 
 const name = 'welcome-tutorial'
-export default mongoose.models[name] || mongoose.model(name, welcomeSchema, name)
+export default mongoose.models[name] || mongoose.model(name, welcomeSchema, name) 
